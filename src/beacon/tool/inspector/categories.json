@@ -1,0 +1,453 @@
+{
+    "memcached:latest": [
+        "databases-and-storage"
+    ],
+    "nginx:latest": [
+        "web-servers"
+    ],
+    "busybox:latest": [
+        "operating-systems"
+    ],
+    "alpine:latest": [
+        "operating-systems"
+    ],
+    "redis:latest": [
+        "databases-and-storage"
+    ],
+    "postgres:latest": [
+        "databases-and-storage"
+    ],
+    "ubuntu:latest": [
+        "operating-systems"
+    ],
+    "python:latest": [
+        "languages-and-frameworks"
+    ],
+    "node:latest": [
+        "languages-and-frameworks"
+    ],
+    "mysql:latest": [
+        "databases-and-storage"
+    ],
+    "httpd:latest": [
+        "web-servers"
+    ],
+    "mongo:latest": [
+        "databases-and-storage"
+    ],
+    "rabbitmq:latest": [
+        "message-queues"
+    ],
+    "traefik:latest": [
+        "networking"
+    ],
+    "docker:latest": [
+        "developer-tools"
+    ],
+    "hello-world:latest": [],
+    "mariadb:latest": [
+        "databases-and-storage"
+    ],
+    "openjdk:26-trixie": [],
+    "golang:latest": [
+        "languages-and-frameworks"
+    ],
+    "registry:latest": [
+        "databases-and-storage"
+    ],
+    "ruby:latest": [
+        "languages-and-frameworks"
+    ],
+    "debian:latest": [
+        "operating-systems"
+    ],
+    "wordpress:latest": [
+        "content-management-system"
+    ],
+    "php:8.3.25RC1-zts-alpine3.21": [
+        "languages-and-frameworks"
+    ],
+    "centos:centos7.9.2009": [],
+    "sonarqube:latest": [
+        "integration-and-delivery"
+    ],
+    "haproxy:latest": [
+        "web-servers"
+    ],
+    "influxdb:latest": [
+        "data-science",
+        "databases-and-storage",
+        "internet-of-things"
+    ],
+    "consul:1.15.4": [],
+    "nextcloud:latest": [
+        "content-management-system"
+    ],
+    "amazonlinux:latest": [
+        "operating-systems"
+    ],
+    "elasticsearch:9.1.2": [
+        "databases-and-storage"
+    ],
+    "tomcat:9.0.108-jre21-temurin-noble": [
+        "web-servers"
+    ],
+    "maven:latest": [
+        "languages-and-frameworks"
+    ],
+    "caddy:latest": [
+        "web-servers"
+    ],
+    "eclipse-mosquitto:latest": [
+        "internet-of-things",
+        "message-queues"
+    ],
+    "telegraf:latest": [
+        "monitoring-and-observability"
+    ],
+    "vault:1.13.3": [
+        "security"
+    ],
+    "bash:latest": [
+        "developer-tools"
+    ],
+    "adminer:latest": [
+        "databases-and-storage"
+    ],
+    "ghost:latest": [
+        "content-management-system"
+    ],
+    "solr:latest": [
+        "databases-and-storage"
+    ],
+    "kong:latest": [
+        "api-management"
+    ],
+    "zookeeper:latest": [
+        "databases-and-storage"
+    ],
+    "neo4j:latest": [
+        "databases-and-storage"
+    ],
+    "gradle:8.14.3-jdk24-ubi-minimal": [
+        "developer-tools"
+    ],
+    "mongo-express:latest": [
+        "databases-and-storage"
+    ],
+    "perl:threaded-bookworm": [
+        "languages-and-frameworks"
+    ],
+    "buildpack-deps:latest": [
+        "developer-tools"
+    ],
+    "cassandra:latest": [
+        "databases-and-storage"
+    ],
+    "kibana:9.1.2": [
+        "monitoring-and-observability"
+    ],
+    "nats:latest": [
+        "message-queues"
+    ],
+    "eclipse-temurin:latest": [
+        "languages-and-frameworks"
+    ],
+    "percona:psmdb-8.0.8": [
+        "databases-and-storage"
+    ],
+    "drupal:latest": [
+        "content-management-system"
+    ],
+    "logstash:9.1.2": [
+        "monitoring-and-observability"
+    ],
+    "couchdb:latest": [
+        "databases-and-storage"
+    ],
+    "composer:latest": [
+        "developer-tools"
+    ],
+    "chronograf:latest": [
+        "monitoring-and-observability"
+    ],
+    "jenkins:2.60.3": [],
+    "java:6b38": [],
+    "teamspeak:latest": [],
+    "matomo:latest": [
+        "monitoring-and-observability"
+    ],
+    "fedora:latest": [
+        "operating-systems"
+    ],
+    "sentry:latest": [],
+    "amazoncorretto:latest": [
+        "languages-and-frameworks"
+    ],
+    "nats-streaming:latest": [],
+    "adoptopenjdk:latest": [],
+    "rust:latest": [
+        "languages-and-frameworks"
+    ],
+    "flink:latest": [
+        "data-science"
+    ],
+    "couchbase:latest": [
+        "databases-and-storage"
+    ],
+    "joomla:latest": [
+        "content-management-system"
+    ],
+    "swarm:latest": [],
+    "groovy:latest": [
+        "languages-and-frameworks"
+    ],
+    "phpmyadmin:latest": [
+        "databases-and-storage",
+        "developer-tools"
+    ],
+    "rethinkdb:latest": [
+        "databases-and-storage"
+    ],
+    "rocket.chat:latest": [],
+    "redmine:latest": [
+        "content-management-system"
+    ],
+    "erlang:latest": [
+        "languages-and-frameworks"
+    ],
+    "elixir:latest": [
+        "languages-and-frameworks"
+    ],
+    "kapacitor:latest": [
+        "monitoring-and-observability"
+    ],
+    "owncloud:latest": [],
+    "jruby:latest": [
+        "languages-and-frameworks"
+    ],
+    "mediawiki:latest": [
+        "content-management-system"
+    ],
+    "odoo:latest": [
+        "content-management-system"
+    ],
+    "mono:latest": [
+        "languages-and-frameworks"
+    ],
+    "jetty:latest": [
+        "web-servers"
+    ],
+    "pypy:latest": [
+        "languages-and-frameworks"
+    ],
+    "oraclelinux:10-slim": [
+        "operating-systems"
+    ],
+    "clojure:temurin-24-trixie-slim": [
+        "languages-and-frameworks"
+    ],
+    "rockylinux:9.3.20231119-minimal": [
+        "operating-systems"
+    ],
+    "arangodb:latest": [
+        "databases-and-storage"
+    ],
+    "xwiki:latest": [
+        "content-management-system"
+    ],
+    "ros:latest": [
+        "languages-and-frameworks",
+        "machine-learning-and-ai",
+        "operating-systems"
+    ],
+    "archlinux:latest": [
+        "operating-systems"
+    ],
+    "swift:latest": [
+        "languages-and-frameworks"
+    ],
+    "znc:latest": [],
+    "hylang:latest": [
+        "languages-and-frameworks"
+    ],
+    "gcc:latest": [
+        "languages-and-frameworks"
+    ],
+    "tomee:jre21-Semeru-webprofile": [
+        "web-servers"
+    ],
+    "haxe:latest": [
+        "languages-and-frameworks"
+    ],
+    "websphere-liberty:latest": [
+        "web-servers"
+    ],
+    "sapmachine:latest": [
+        "languages-and-frameworks"
+    ],
+    "django:latest": [],
+    "yourls:latest": [
+        "content-management-system"
+    ],
+    "piwik:latest": [],
+    "varnish:latest": [
+        "web-servers"
+    ],
+    "crate:latest": [
+        "databases-and-storage"
+    ],
+    "aerospike:ee-8.1.0.0_1": [
+        "databases-and-storage"
+    ],
+    "photon:latest": [
+        "operating-systems"
+    ],
+    "iojs:latest": [],
+    "julia:latest": [
+        "languages-and-frameworks"
+    ],
+    "orientdb:latest": [
+        "databases-and-storage"
+    ],
+    "open-liberty:latest": [
+        "web-servers"
+    ],
+    "ibmjava:latest": [
+        "languages-and-frameworks"
+    ],
+    "bonita:latest": [
+        "languages-and-frameworks"
+    ],
+    "monica:latest": [
+        "content-management-system"
+    ],
+    "fluentd:latest": [
+        "monitoring-and-observability"
+    ],
+    "r-base:latest": [
+        "languages-and-frameworks"
+    ],
+    "almalinux:latest": [
+        "operating-systems"
+    ],
+    "neurodebian:latest": [
+        "data-science"
+    ],
+    "storm:latest": [
+        "data-science"
+    ],
+    "rails:latest": [],
+    "ubuntu-debootstrap:latest": [],
+    "irssi:latest": [],
+    "haskell:latest": [
+        "languages-and-frameworks"
+    ],
+    "ibm-semeru-runtimes:open-jdk-24.0.2_12-jre-noble": [
+        "languages-and-frameworks"
+    ],
+    "backdrop:latest": [
+        "content-management-system"
+    ],
+    "clearlinux:latest": [
+        "operating-systems"
+    ],
+    "plone:latest": [
+        "content-management-system"
+    ],
+    "cirros:latest": [
+        "operating-systems"
+    ],
+    "notary:signer-0.7.0": [
+        "security"
+    ],
+    "lightstreamer:latest": [
+        "message-queues"
+    ],
+    "postfixadmin:latest": [
+        "developer-tools"
+    ],
+    "geonetwork:latest": [
+        "data-science"
+    ],
+    "friendica:latest": [],
+    "nuxeo:latest": [],
+    "hello-seattle:latest": [],
+    "gazebo:latest": [
+        "languages-and-frameworks"
+    ],
+    "convertigo:latest": [
+        "languages-and-frameworks"
+    ],
+    "php-zendserver:latest": [
+        "languages-and-frameworks"
+    ],
+    "emqx:latest": [
+        "message-queues"
+    ],
+    "celery:latest": [],
+    "spiped:latest": [
+        "security"
+    ],
+    "swipl:latest": [
+        "languages-and-frameworks"
+    ],
+    "thrift:latest": [],
+    "fsharp:latest": [],
+    "dart:latest": [
+        "languages-and-frameworks"
+    ],
+    "eggdrop:latest": [],
+    "rapidoid:latest": [],
+    "docker-dev:1": [],
+    "rakudo-star:latest": [
+        "languages-and-frameworks"
+    ],
+    "express-gateway:latest": [],
+    "kaazing-gateway:latest": [],
+    "silverpeas:latest": [
+        "content-management-system"
+    ],
+    "ubuntu-upstart:latest": [],
+    "mageia:latest": [
+        "operating-systems"
+    ],
+    "hola-mundo:latest": [],
+    "known:latest": [],
+    "glassfish:latest": [],
+    "spark:latest": [
+        "data-science"
+    ],
+    "unit:latest": [
+        "web-servers"
+    ],
+    "crux:latest": [],
+    "alt:latest": [
+        "operating-systems"
+    ],
+    "euleros:latest": [],
+    "jobber:latest": [],
+    "sourcemage:latest": [],
+    "sl:latest": [
+        "operating-systems"
+    ],
+    "hitch:latest": [
+        "web-servers"
+    ],
+    "hipache:latest": [],
+    "satosa:latest": [
+        "api-management"
+    ],
+    "liquibase:latest": [
+        "developer-tools"
+    ],
+    "clickhouse:latest": [
+        "databases-and-storage"
+    ],
+    "api-firewall:latest": [
+        "api-management"
+    ],
+    "krakend:latest": [
+        "api-management"
+    ]
+}

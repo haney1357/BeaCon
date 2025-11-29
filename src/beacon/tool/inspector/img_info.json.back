@@ -1,0 +1,2349 @@
+{
+    "memcached:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "11211",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "nginx:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "redis:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "6379",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "httpd:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "mongo:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "27017",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "rabbitmq:latest": {
+        "categories": [
+            "message-queues"
+        ],
+        "exposed-port": [
+            {
+                "port": "15691",
+                "proto": "tcp"
+            },
+            {
+                "port": "15692",
+                "proto": "tcp"
+            },
+            {
+                "port": "25672",
+                "proto": "tcp"
+            },
+            {
+                "port": "4369",
+                "proto": "tcp"
+            },
+            {
+                "port": "5671",
+                "proto": "tcp"
+            },
+            {
+                "port": "5672",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "traefik:latest": {
+        "categories": [
+            "networking"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "registry:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "5000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "wordpress:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "sonarqube:latest": {
+        "categories": [
+            "integration-and-delivery"
+        ],
+        "exposed-port": [
+            {
+                "port": "9000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "influxdb:latest": {
+        "categories": [
+            "data-science",
+            "databases-and-storage",
+            "internet-of-things"
+        ],
+        "exposed-port": [
+            {
+                "port": "8086",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "consul:1.15.4": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "8300",
+                "proto": "tcp"
+            },
+            {
+                "port": "8301",
+                "proto": "tcp"
+            },
+            {
+                "port": "8301",
+                "proto": "udp"
+            },
+            {
+                "port": "8302",
+                "proto": "tcp"
+            },
+            {
+                "port": "8302",
+                "proto": "udp"
+            },
+            {
+                "port": "8500",
+                "proto": "tcp"
+            },
+            {
+                "port": "8600",
+                "proto": "tcp"
+            },
+            {
+                "port": "8600",
+                "proto": "udp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "nextcloud:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "elasticsearch:9.1.2": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "9200",
+                "proto": "tcp"
+            },
+            {
+                "port": "9300",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "tomcat:9.0.108-jre21-temurin-noble": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "caddy:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "2019",
+                "proto": "tcp"
+            },
+            {
+                "port": "443",
+                "proto": "tcp"
+            },
+            {
+                "port": "443",
+                "proto": "udp"
+            },
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "eclipse-mosquitto:latest": {
+        "categories": [
+            "internet-of-things",
+            "message-queues"
+        ],
+        "exposed-port": [
+            {
+                "port": "1883",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "vault:1.13.3": {
+        "categories": [
+            "security"
+        ],
+        "exposed-port": [
+            {
+                "port": "8200",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "adminer:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "solr:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "8983",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "zookeeper:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "2181",
+                "proto": "tcp"
+            },
+            {
+                "port": "2888",
+                "proto": "tcp"
+            },
+            {
+                "port": "3888",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "neo4j:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "7473",
+                "proto": "tcp"
+            },
+            {
+                "port": "7474",
+                "proto": "tcp"
+            },
+            {
+                "port": "7687",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "mongo-express:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "8081",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "cassandra:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "7000",
+                "proto": "tcp"
+            },
+            {
+                "port": "7001",
+                "proto": "tcp"
+            },
+            {
+                "port": "7199",
+                "proto": "tcp"
+            },
+            {
+                "port": "9042",
+                "proto": "tcp"
+            },
+            {
+                "port": "9160",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "kibana:9.1.2": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "5601",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "nats:latest": {
+        "categories": [
+            "message-queues"
+        ],
+        "exposed-port": [
+            {
+                "port": "4222",
+                "proto": "tcp"
+            },
+            {
+                "port": "6222",
+                "proto": "tcp"
+            },
+            {
+                "port": "8222",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "percona:psmdb-8.0.8": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "27017",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "drupal:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "logstash:9.1.2": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "5044",
+                "proto": "tcp"
+            },
+            {
+                "port": "9600",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "chronograf:latest": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "8888",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "jenkins:2.60.3": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "50000",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "matomo:latest": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "nats-streaming:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "4222",
+                "proto": "tcp"
+            },
+            {
+                "port": "8222",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "couchbase:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "11207",
+                "proto": "tcp"
+            },
+            {
+                "port": "11210",
+                "proto": "tcp"
+            },
+            {
+                "port": "11280",
+                "proto": "tcp"
+            },
+            {
+                "port": "18091",
+                "proto": "tcp"
+            },
+            {
+                "port": "18092",
+                "proto": "tcp"
+            },
+            {
+                "port": "18093",
+                "proto": "tcp"
+            },
+            {
+                "port": "18094",
+                "proto": "tcp"
+            },
+            {
+                "port": "18095",
+                "proto": "tcp"
+            },
+            {
+                "port": "18096",
+                "proto": "tcp"
+            },
+            {
+                "port": "18097",
+                "proto": "tcp"
+            },
+            {
+                "port": "8091",
+                "proto": "tcp"
+            },
+            {
+                "port": "8092",
+                "proto": "tcp"
+            },
+            {
+                "port": "8093",
+                "proto": "tcp"
+            },
+            {
+                "port": "8094",
+                "proto": "tcp"
+            },
+            {
+                "port": "8095",
+                "proto": "tcp"
+            },
+            {
+                "port": "8096",
+                "proto": "tcp"
+            },
+            {
+                "port": "8097",
+                "proto": "tcp"
+            },
+            {
+                "port": "9123",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "phpmyadmin:latest": {
+        "categories": [
+            "databases-and-storage",
+            "developer-tools"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "rethinkdb:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "28015",
+                "proto": "tcp"
+            },
+            {
+                "port": "29015",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "rocket.chat:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "3000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "redmine:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "3000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "kapacitor:latest": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "9092",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "owncloud:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "mediawiki:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "odoo:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "8069",
+                "proto": "tcp"
+            },
+            {
+                "port": "8071",
+                "proto": "tcp"
+            },
+            {
+                "port": "8072",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "jetty:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "xwiki:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "tomee:jre21-Semeru-webprofile": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "websphere-liberty:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "9080",
+                "proto": "tcp"
+            },
+            {
+                "port": "9443",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "yourls:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            },
+            {
+                "port": "8443",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "piwik:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "varnish:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            },
+            {
+                "port": "8443",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "aerospike:ee-8.1.0.0_1": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "3000",
+                "proto": "tcp"
+            },
+            {
+                "port": "3001",
+                "proto": "tcp"
+            },
+            {
+                "port": "3002",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "open-liberty:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "9080",
+                "proto": "tcp"
+            },
+            {
+                "port": "9443",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "bonita:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            },
+            {
+                "port": "9000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "monica:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "fluentd:latest": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "exposed-port": [
+            {
+                "port": "24224",
+                "proto": "tcp"
+            },
+            {
+                "port": "5140",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "plone:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "cirros:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "exposed-port": [],
+        "args": [],
+        "opts": []
+    },
+    "lightstreamer:latest": {
+        "categories": [
+            "message-queues"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "postfixadmin:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "geonetwork:latest": {
+        "categories": [
+            "data-science"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "friendica:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "nuxeo:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "gazebo:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "exposed-port": [
+            {
+                "port": "11345",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "convertigo:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "exposed-port": [
+            {
+                "port": "28080",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "php-zendserver:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "exposed-port": [
+            {
+                "port": "10081",
+                "proto": "tcp"
+            },
+            {
+                "port": "10082",
+                "proto": "tcp"
+            },
+            {
+                "port": "443",
+                "proto": "tcp"
+            },
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "emqx:latest": {
+        "categories": [
+            "message-queues"
+        ],
+        "exposed-port": [
+            {
+                "port": "18083",
+                "proto": "tcp"
+            },
+            {
+                "port": "1883",
+                "proto": "tcp"
+            },
+            {
+                "port": "4370",
+                "proto": "tcp"
+            },
+            {
+                "port": "5369",
+                "proto": "tcp"
+            },
+            {
+                "port": "8083",
+                "proto": "tcp"
+            },
+            {
+                "port": "8084",
+                "proto": "tcp"
+            },
+            {
+                "port": "8883",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "celery:latest": {
+        "categories": [],
+        "exposed-port": [],
+        "args": [],
+        "opts": []
+    },
+    "fsharp:latest": {
+        "categories": [],
+        "exposed-port": [],
+        "args": [],
+        "opts": []
+    },
+    "express-gateway:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            },
+            {
+                "port": "9876",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "kaazing-gateway:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "8000",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "ubuntu-upstart:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "22",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "glassfish:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "4848",
+                "proto": "tcp"
+            },
+            {
+                "port": "8080",
+                "proto": "tcp"
+            },
+            {
+                "port": "8181",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "unit:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "jobber:latest": {
+        "categories": [],
+        "exposed-port": [],
+        "args": [],
+        "opts": []
+    },
+    "hitch:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "exposed-port": [
+            {
+                "port": "443",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "hipache:latest": {
+        "categories": [],
+        "exposed-port": [
+            {
+                "port": "6379",
+                "proto": "tcp"
+            },
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "satosa:latest": {
+        "categories": [
+            "api-management"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "clickhouse:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "exposed-port": [
+            {
+                "port": "8123",
+                "proto": "tcp"
+            },
+            {
+                "port": "9000",
+                "proto": "tcp"
+            },
+            {
+                "port": "9009",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "krakend:latest": {
+        "categories": [
+            "api-management"
+        ],
+        "exposed-port": [
+            {
+                "port": "8080",
+                "proto": "tcp"
+            },
+            {
+                "port": "8090",
+                "proto": "tcp"
+            }
+        ],
+        "args": [],
+        "opts": []
+    },
+    "node:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "clearlinux:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "euleros:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ubuntu-debootstrap:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "r-base:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "gcc:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "golang:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "orientdb:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "2424",
+                "proto": "tcp"
+            },
+            {
+                "port": "2480",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "eclipse-temurin:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "alpine:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "fedora:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "mono:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ros:latest": {
+        "categories": [
+            "languages-and-frameworks",
+            "machine-learning-and-ai",
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "mageia:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "pypy:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "rust:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "iojs:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "debian:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "irssi:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "busybox:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "openjdk:26-trixie": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "sapmachine:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ibmjava:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "archlinux:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "perl:threaded-bookworm": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ubuntu:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "swipl:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "sourcemage:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "sl:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "django:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "java:6b38": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ibm-semeru-runtimes:open-jdk-24.0.2_12-jre-noble": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "photon:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "dart:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "php:8.3.25RC1-zts-alpine3.21": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "rails:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "haskell:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "oraclelinux:10-slim": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "swift:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "erlang:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "bash:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ruby:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "crux:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "julia:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "python:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "elixir:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "alt:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "buildpack-deps:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "amazonlinux:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "adoptopenjdk:latest": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "neurodebian:latest": {
+        "categories": [
+            "data-science"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "centos:centos7.9.2009": {
+        "categories": [],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "hylang:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "almalinux:latest": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "jruby:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "amazoncorretto:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "groovy:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "rockylinux:9.3.20231119-minimal": {
+        "categories": [
+            "operating-systems"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "rakudo-star:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "mysql:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e",
+            "MYSQL_ROOT_PASSWORD=my-secret-pw"
+        ],
+        "exposed-port": [
+            {
+                "port": "3306",
+                "proto": "tcp"
+            },
+            {
+                "port": "33060",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "mariadb:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e",
+            "MYSQL_ROOT_PASSWORD=my-secret-pw"
+        ],
+        "exposed-port": [
+            {
+                "port": "3306",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "postgres:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e POSTGRES_PASSWORD=password"
+        ],
+        "exposed-port": [
+            {
+                "port": "5432",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "haxe:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "flink:latest": {
+        "categories": [
+            "data-science"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "6123",
+                "proto": "tcp"
+            },
+            {
+                "port": "8081",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "couchdb:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e",
+            "COUCHDB_USER=admin",
+            "-e",
+            "COUCHDB_PASSWORD=password"
+        ],
+        "exposed-port": [
+            {
+                "port": "4369",
+                "proto": "tcp"
+            },
+            {
+                "port": "5984",
+                "proto": "tcp"
+            },
+            {
+                "port": "9100",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "composer:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "joomla:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "rapidoid:latest": {
+        "categories": [],
+        "args": [
+            "dev"
+        ],
+        "opts": [],
+        "exposed-port": [
+            {
+                "port": "8888",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "spark:latest": {
+        "categories": [
+            "data-science"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "haproxy:latest": {
+        "categories": [
+            "web-servers"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "spiped:latest": {
+        "categories": [
+            "security"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "maven:latest": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "liquibase:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "crate:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "4200",
+                "proto": "tcp"
+            },
+            {
+                "port": "4300",
+                "proto": "tcp"
+            },
+            {
+                "port": "5432",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "thrift:latest": {
+        "categories": [],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "eggdrop:latest": {
+        "categories": [],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "3333",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "sentry:latest": {
+        "categories": [],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "9000",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "storm:latest": {
+        "categories": [
+            "data-science"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "telegraf:latest": {
+        "categories": [
+            "monitoring-and-observability"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "8092",
+                "proto": "udp"
+            },
+            {
+                "port": "8094",
+                "proto": "tcp"
+            },
+            {
+                "port": "8125",
+                "proto": "udp"
+            }
+        ]
+    },
+    "kong:latest": {
+        "categories": [
+            "api-management"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "8000",
+                "proto": "tcp"
+            },
+            {
+                "port": "8001",
+                "proto": "tcp"
+            },
+            {
+                "port": "8443",
+                "proto": "tcp"
+            },
+            {
+                "port": "8444",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "known:latest": {
+        "categories": [],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "9000",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "backdrop:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "80",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "clojure:temurin-24-trixie-slim": {
+        "categories": [
+            "languages-and-frameworks"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "ghost:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "2368",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "gradle:8.14.3-jdk24-ubi-minimal": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": []
+    },
+    "silverpeas:latest": {
+        "categories": [
+            "content-management-system"
+        ],
+        "args": [
+            "/bin/bash"
+        ],
+        "opts": [
+            "-it"
+        ],
+        "exposed-port": [
+            {
+                "port": "8000",
+                "proto": "tcp"
+            },
+            {
+                "port": "9990",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "arangodb:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e",
+            "ARANGO_RANDOM_ROOT_PASSWORD=1"
+        ],
+        "exposed-port": [
+            {
+                "port": "8529",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "teamspeak:latest": {
+        "categories": [
+            "databases-and-storage"
+        ],
+        "args": [],
+        "opts": [
+            "-e",
+            "TS3SERVER_LICENSE=accept"
+        ],
+        "exposed-port": [
+            {
+                "port": "9987",
+                "proto": "udp"
+            },
+            {
+                "port": "10011",
+                "proto": "tcp"
+            },
+            {
+                "port": "30033",
+                "proto": "tcp"
+            }
+        ]
+    },
+    "docker:latest": {
+        "categories": [
+            "developer-tools"
+        ],
+        "args": [],
+        "opts": [
+            "--privileged"
+        ],
+        "exposed-port": [
+            {
+                "port": "2375",
+                "proto": "udp"
+            },
+            {
+                "port": "2376",
+                "proto": "tcp"
+            }
+        ]
+    }
+}

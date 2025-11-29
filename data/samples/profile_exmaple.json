@@ -1,0 +1,44 @@
+{
+    "containers": [
+        {
+            "image": "nginx",
+            "tag": "latest",
+            "options": {
+                "network": "host",
+                "init": true,
+                "publish": [
+                    "80:80/tcp"
+                ]
+            },
+            "workloads": [
+                {
+                    "kind": "http",
+                    "concurrency": 50,
+                    "requests": 2000,
+                    "pattern": [
+                        {
+                            "GET": "/"
+                        }
+                    ]
+                }
+            ],
+            "duration_sec": 60
+        },
+        {
+            "image": "redis",
+            "tag": "latest",
+            "options": {
+                "network": "bridge"
+            },
+            "workloads": [
+                {
+                    "kind": "redis",
+                    "read": 1000,
+                    "write": 1000,
+                    "pipeline": 50
+                }
+            ],
+            "duration_sec": 90
+        }
+    ]
+}

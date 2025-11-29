@@ -1,0 +1,121 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+*.egg
+*.egg-info/
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+coverage.xml
+nosetests.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+# eBPF / BCC build artifacts
+# ============================
+*.o
+*.so
+*.ll
+*.bc
+*.skel.h
+*.bpfdump
+*.clangd
+
+# ============================
+# C/C++ build artifacts
+# ============================
+*.out
+*.a
+*.dSYM/
+
+# ============================
+# Logs / runtime outputs
+# ============================
+*.log
+logs/
+tmp/
+temp/
+*.pid
+
+# ============================
+# Docker & Container-related
+# ============================
+# Docker build cache
+.docker/
+docker-compose.override.yaml
+
+# Images / tarballs
+*.tar
+*.tar.gz
+*.img
+*.qcow2
+
+# ============================
+# BEACON Project Specific
+# ============================
+
+# Environment DBs / profiling outputs
+# EventDB/
+# WorkloadDB/
+# OptionDB/
+*.db
+*.jsonl
+
+# Captured syscall traces
+trace/
+traces/
+*.trace
+
+# Generated seccomp or capability policies
+policies/
+*.policy
+*.seccomp.json
+
+# ============================
+# OS / Misc
+# ============================
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+
+# Result Files
+src/beacon/result/*
+
+# Log
+src/beacon/log

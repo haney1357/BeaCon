@@ -1,0 +1,92 @@
+{
+    "memcached:latest": {
+        "ycsb_client": "memcached",
+        "properties": {
+            "memcached.hosts": "$IP"
+        }
+    }, "nginx:latest": {
+        "ycsb_client": "rest",
+        "properties": {
+            "url.prefix": "http://$IP:80/"
+        }
+    }, "redis:latest": {
+        "ycsb_client": "redis",
+        "properties": {
+            "redis.host": "$IP", 
+            "redis.port": "6379"
+        }
+    }, "httpd:latest": {
+        "ycsb_client": "rest",
+        "properties": {
+            "url.prefix": "http://$IP:80/"
+        }
+    }, "mongo:latest": {
+        "ycsb_client": "mongodb",
+        "properties": {
+            "mongodb.url": "mongodb://$IP/"
+        }
+    }, "influxdb:latest": {
+        "ycsb_client": "influxdb",
+        "properties": {}
+    }, "elasticsearch:9.1.2": {
+        "ycsb_client": "elasticsearch9",
+        "properties": {}
+    }, "tomcat:9.0.108-jre21-temurin-noble": {
+        "ycsb_client": "rest",
+        "properties": {
+            "url.prefix": "http://$IP:8080/"
+        }
+    }, "caddy:latest": {
+        "ycsb_client": "rest",
+        "properties": {
+            "url.prefix": "http://$IP:80/"
+        }
+    }, "adminer:latest": {
+        "ycsb_client": "rest",
+        "properties": {
+            "url.prefix": "http://$IP:8080/"
+        }
+    }, "solr:latest": {
+        "ycsb_client": "solr",
+        "properties": {}
+    }, "zookeeper:latest": {
+        "ycsb_client": "zookeeper",
+        "properties": {}
+    }, "neo4j:latest": {
+        "ycsb_client": "neo4j",
+        "properties": {}
+    }, "cassandra:latest": {
+        "ycsb_client": "cassandra-cql",
+        "properties": {}
+    }, "couchbase:latest": {
+        "ycsb_client": "couchbase2",
+        "properties": {}
+    }, "rethinkdb:latest": {
+        "ycsb_client": "rethinkdb",
+        "properties": {}
+    }, "aerospike:ee-8.1.0.0_1": {
+        "ycsb_client": "aerospike",
+        "properties": {}
+    }, "clickhouse:latest": {
+        "ycsb_client": "jdbcclickhouse",
+        "properties": {}
+    }, "orientdb:latest": {
+        "ycsb_client": "orientdb",
+        "properties": {}
+    }, "mysql:latest": {
+        "ycsb_client": "jdbcmysql",
+        "properties": {}
+    }, "mariadb:latest": {
+        "ycsb_client": "jdbcmysql",
+        "properties": {}
+    }, "postgres:latest": {
+        "ycsb_client": "jdbcpostgres",
+        "properties": {}
+    }, "couchdb:latest": {
+        "ycsb_client": "couchdb",
+        "properties": {}
+    }, "arangodb:latest": {
+        "ycsb_client": "arangodb",
+        "properties": {}
+    }
+}

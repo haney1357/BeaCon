@@ -1,0 +1,383 @@
+{
+    "memcached:latest": {},
+    "nginx:latest": {},
+    "redis:latest": {},
+    "httpd:latest": {},
+    "mongo:latest": {},
+    "rabbitmq:latest": {},
+    "traefik:latest": {},
+    "registry:latest": {},
+    "wordpress:latest": {},
+    "sonarqube:latest": {},
+    "influxdb:latest": {},
+    "consul:1.15.4": {},
+    "nextcloud:latest": {},
+    "elasticsearch:9.1.2": {
+        "environment": [
+            "discovery.type=single-node"
+        ]
+    },
+    "tomcat:9.0.108-jre21-temurin-noble": {},
+    "caddy:latest": {},
+    "eclipse-mosquitto:latest": {},
+    "vault:1.13.3": {},
+    "adminer:latest": {},
+    "solr:latest": {},
+    "zookeeper:latest": {},
+    "neo4j:latest": {},
+    "cassandra:latest": {},
+    "kibana:9.1.2": {},
+    "nats:latest": {},
+    "percona:psmdb-8.0.8": {},
+    "drupal:latest": {},
+    "logstash:9.1.2": {},
+    "chronograf:latest": {},
+    "jenkins:2.60.3": {},
+    "matomo:latest": {},
+    "nats-streaming:latest": {},
+    "couchbase:latest": {},
+    "phpmyadmin:latest": {},
+    "rethinkdb:latest": {},
+    "redmine:latest": {},
+    "kapacitor:latest": {},
+    "owncloud:latest": {},
+    "mediawiki:latest": {},
+    "jetty:latest": {},
+    "xwiki:latest": {},
+    "tomee:jre21-Semeru-webprofile": {},
+    "websphere-liberty:latest": {},
+    "yourls:latest": {},
+    "piwik:latest": {},
+    "varnish:latest": {},
+    "aerospike:ee-8.1.0.0_1": {},
+    "open-liberty:latest": {},
+    "bonita:latest": {},
+    "fluentd:latest": {},
+    "plone:latest": {},
+    "cirros:latest": {},
+    "lightstreamer:latest": {},
+    "postfixadmin:latest": {},
+    "geonetwork:latest": {},
+    "friendica:latest": {},
+    "nuxeo:latest": {},
+    "gazebo:latest": {},
+    "convertigo:latest": {},
+    "php-zendserver:latest": {},
+    "emqx:latest": {},
+    "celery:latest": {},
+    "fsharp:latest": {},
+    "express-gateway:latest": {},
+    "kaazing-gateway:latest": {},
+    "ubuntu-upstart:latest": {},
+    "glassfish:latest": {},
+    "unit:latest": {},
+    "jobber:latest": {},
+    "hitch:latest": {},
+    "hipache:latest": {},
+    "satosa:latest": {},
+    "clickhouse:latest": {},
+    "krakend:latest": {},
+    "node:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "clearlinux:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "euleros:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ubuntu-debootstrap:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "r-base:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "gcc:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "golang:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "orientdb:latest": {
+        "environment": [
+            "ORIENTDB_ROOT_PASSWORD=rootpwd"
+        ]
+    },
+    "eclipse-temurin:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "alpine:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "fedora:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "mono:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ros:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "mageia:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "pypy:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "rust:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "iojs:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "debian:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "irssi:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "busybox:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "openjdk:26-trixie": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "sapmachine:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ibmjava:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "archlinux:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "perl:threaded-bookworm": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ubuntu:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "swipl:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "sourcemage:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "sl:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "django:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "java:6b38": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ibm-semeru-runtimes:open-jdk-24.0.2_12-jre-noble": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "photon:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "dart:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "php:8.3.25RC1-zts-alpine3.21": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "rails:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "haskell:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "oraclelinux:10-slim": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "swift:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "erlang:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "bash:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "ruby:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "crux:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "julia:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "python:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "elixir:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "alt:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "buildpack-deps:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "amazonlinux:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "adoptopenjdk:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "neurodebian:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "centos:centos7.9.2009": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "hylang:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "almalinux:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "jruby:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "amazoncorretto:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "groovy:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "rockylinux:9.3.20231119-minimal": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "rakudo-star:latest": {
+        "stdin_open": true,
+        "tty": true
+    },
+    "mysql:latest": {
+        "environment": [
+            "MYSQL_ROOT_PASSWORD=my-secret-pw"
+        ]
+    },
+    "mariadb:latest": {
+        "environment": [
+            "MYSQL_ROOT_PASSWORD=my-secret-pw"
+        ]
+    },
+    "postgres:latest": {
+        "environment": [
+            "POSTGRES_PASSWORD=mysecretpassword"
+        ]
+    },
+    "couchdb:latest": {
+        "environment": [
+            "COUCHDB_USER=admin",
+            "COUCHDB_PASSWORD=password"
+        ]
+    },
+    "rapidoid:latest": {
+        "command": [
+            "dev"
+        ]
+    },
+    "spark:latest": {
+        "command": [
+            "/opt/spark/bin/spark-shell"
+        ],
+        "stdin_open": true,
+        "tty": true
+    },
+    "crate:latest": {
+        "command": [
+            "-Cdiscovery.type=single-node"
+        ]
+    },
+    "eggdrop:latest": {
+        "environment": [
+            "NICK=test",
+            "SERVER=irc.libera.chat"
+        ],
+        "stdin_open": true,
+        "tty": true
+    },
+    "ghost:latest": {
+        "environment": [
+            "NODE_ENV=development"
+        ]
+    },
+    "arangodb:latest": {
+        "environment": [
+            "ARANGO_RANDOM_ROOT_PASSWORD=1"
+        ]
+    },
+    "teamspeak:latest": {
+        "environment": [
+            "TS3SERVER_LICENSE=accept"
+        ]
+    },
+    "docker:latest": {
+        "host_config": {
+            "Privileged": true
+        }
+    }
+}

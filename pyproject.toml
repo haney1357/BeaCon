@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beacon"
+version = "0.1.0"
+description = "Automatic container policy generation using dynamic environment analysis"
+authors = [{ name = "Haney Kang" }]
+requires-python = ">=3.8"
+dependencies = [
+    "docker",
+    "bcc",
+    "pydantic",
+    "pyyaml",
+    "typer",
+    "rich"
+]
+
+[project.scripts]
+beacon = "beacon.cli:app"  # enables `beacon` command
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
